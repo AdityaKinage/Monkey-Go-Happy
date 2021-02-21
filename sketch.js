@@ -47,14 +47,14 @@ background('white');
   
   FoodGroup();
    
-  
-}
- function FoodGroup(){
+  function FoodGroup(){
   if(frameCount%50===0){
  var banana = createSprite(600,random(1,600),100,40);
     banana.velocityX = -6;
     banana.addImage('banana',bananaImage);
     banana.scale = 0.1;
+}
+ 
     
     
     
